@@ -1,0 +1,20 @@
+drwxr-x---+ 5 codespace codespace 4096 Jul  3 17:51 secure_workspace
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/docs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/logs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/src
+drwxr-x---+ 5 codespace codespace 4096 Jul  3 17:51 secure_workspace
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/docs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/logs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/src
+secure_workspace/docs:
+total 0
+-rw-r----- 1 codespace codespace 0 Jul  3 18:04 plan.txt
+
+secure_workspace/logs:
+total 0
+-rw-r----- 1 codespace codespace 0 Jul  3 18:04 activity.log
+
+secure_workspace/src:
+total 0
+-rw-r----- 1 codespace codespace 0 Jul  3 18:04 app.txt
+0022

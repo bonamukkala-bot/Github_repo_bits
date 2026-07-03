@@ -1,0 +1,13 @@
+
+rm -f app.log stdout.txt stderr.txt combined.txt
+echo "sample log line" > app.log
+lsof | head -n 20
+exec 3<app.log
+lsof -p $$ | grep app.log
+ls -l /proc/$$/fd | grep app.log
+ls -l /proc/$$/fd
+ls -l > stdout.txt
+ls /not_a_real_path 2> stderr.txt
+(ls -l && ls /not_a_real_path) > combined.txt 2>&1
+ulimit -a
+exec 3<&-

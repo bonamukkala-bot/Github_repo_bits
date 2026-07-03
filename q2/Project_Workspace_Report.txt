@@ -1,0 +1,44 @@
+Project Workspace Report
+=========================
+The secure workspace was created under /workspaces/Github_repo_bits/q2/secure_workspace.
+
+Commands executed:
+
+mkdir -p secure_workspace/{docs,src,logs}
+touch secure_workspace/docs/plan.txt secure_workspace/src/app.txt secure_workspace/logs/activity.log
+ls -ld secure_workspace secure_workspace/*
+chmod 750 secure_workspace
+chmod 750 secure_workspace/docs secure_workspace/src secure_workspace/logs
+chmod 640 secure_workspace/docs/plan.txt secure_workspace/src/app.txt secure_workspace/logs/activity.log
+ls -ld secure_workspace secure_workspace/*
+ls -l secure_workspace/*
+umask
+
+
+Observed output:
+drwxr-x---+ 5 codespace codespace 4096 Jul  3 17:51 secure_workspace
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/docs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/logs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/src
+drwxr-x---+ 5 codespace codespace 4096 Jul  3 17:51 secure_workspace
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/docs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/logs
+drwxr-x---+ 2 codespace codespace 4096 Jul  3 17:52 secure_workspace/src
+secure_workspace/docs:
+total 0
+-rw-r----- 1 codespace codespace 0 Jul  3 18:04 plan.txt
+
+secure_workspace/logs:
+total 0
+-rw-r----- 1 codespace codespace 0 Jul  3 18:04 activity.log
+
+secure_workspace/src:
+total 0
+-rw-r----- 1 codespace codespace 0 Jul  3 18:04 app.txt
+0022
+
+Brief observations:
+- The project tree includes docs, src, and logs directories.
+- The directories were tightened to owner-read/write/execute and group-read/execute only.
+- Files were restricted to owner read/write and group read only.
+- The umask value remained 0022, which is the default for the shell.

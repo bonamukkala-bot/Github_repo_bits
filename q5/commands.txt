@@ -1,0 +1,5 @@
+
+lsblk
+mount | head -5
+df -h
+df -i

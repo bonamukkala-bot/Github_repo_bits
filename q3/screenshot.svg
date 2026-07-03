@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <text x="20" y="40" font-family="Arial" font-size="28" font-weight="bold" fill="#f8fafc">Question 3 - Link Analysis</text>
+  <rect x="18" y="55" width="1364" height="820" rx="10" fill="#111827" stroke="#475569"/>
+  <text x="20" y="40" font-family="Monaco, Consolas, monospace" font-size="13">total 8</text>
+<text x="20" y="58" font-family="Monaco, Consolas, monospace" font-size="13">1310805 -rw-rw-rw- 2 codespace codespace 21 Jul  3 18:04 hardlink.txt</text>
+<text x="20" y="76" font-family="Monaco, Consolas, monospace" font-size="13">1310805 -rw-rw-rw- 2 codespace codespace 21 Jul  3 18:04 original.txt</text>
+<text x="20" y="94" font-family="Monaco, Consolas, monospace" font-size="13">1310806 lrwxrwxrwx 1 codespace codespace 12 Jul  3 18:04 symlink.txt -&gt; original.txt</text>
+<text x="20" y="112" font-family="Monaco, Consolas, monospace" font-size="13">  File: original.txt</text>
+<text x="20" y="130" font-family="Monaco, Consolas, monospace" font-size="13">  Size: 21        	Blocks: 8          IO Block: 4096   regular file</text>
+<text x="20" y="148" font-family="Monaco, Consolas, monospace" font-size="13">Device: 7,4	Inode: 1310805     Links: 2</text>
+<text x="20" y="166" font-family="Monaco, Consolas, monospace" font-size="13">Access: (0666/-rw-rw-rw-)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)</text>
+<text x="20" y="184" font-family="Monaco, Consolas, monospace" font-size="13">Access: 2026-07-03 18:04:35.471562139 +0000</text>
+<text x="20" y="202" font-family="Monaco, Consolas, monospace" font-size="13">Modify: 2026-07-03 18:04:35.471562139 +0000</text>
+<text x="20" y="220" font-family="Monaco, Consolas, monospace" font-size="13">Change: 2026-07-03 18:04:35.474562139 +0000</text>
+<text x="20" y="238" font-family="Monaco, Consolas, monospace" font-size="13"> Birth: 2026-07-03 18:04:35.471562139 +0000</text>
+<text x="20" y="256" font-family="Monaco, Consolas, monospace" font-size="13">  File: hardlink.txt</text>
+<text x="20" y="274" font-family="Monaco, Consolas, monospace" font-size="13">  Size: 21        	Blocks: 8          IO Block: 4096   regular file</text>
+<text x="20" y="292" font-family="Monaco, Consolas, monospace" font-size="13">Device: 7,4	Inode: 1310805     Links: 2</text>
+<text x="20" y="310" font-family="Monaco, Consolas, monospace" font-size="13">Access: (0666/-rw-rw-rw-)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)</text>
+<text x="20" y="328" font-family="Monaco, Consolas, monospace" font-size="13">Access: 2026-07-03 18:04:35.471562139 +0000</text>
+<text x="20" y="346" font-family="Monaco, Consolas, monospace" font-size="13">Modify: 2026-07-03 18:04:35.471562139 +0000</text>
+<text x="20" y="364" font-family="Monaco, Consolas, monospace" font-size="13">Change: 2026-07-03 18:04:35.474562139 +0000</text>
+<text x="20" y="382" font-family="Monaco, Consolas, monospace" font-size="13"> Birth: 2026-07-03 18:04:35.471562139 +0000</text>
+<text x="20" y="400" font-family="Monaco, Consolas, monospace" font-size="13">  File: symlink.txt -&gt; original.txt</text>
+<text x="20" y="418" font-family="Monaco, Consolas, monospace" font-size="13">  Size: 12        	Blocks: 0          IO Block: 4096   symbolic link</text>
+<text x="20" y="436" font-family="Monaco, Consolas, monospace" font-size="13">Device: 7,4	Inode: 1310806     Links: 1</text>
+<text x="20" y="454" font-family="Monaco, Consolas, monospace" font-size="13">Access: (0777/lrwxrwxrwx)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)</text>
+<text x="20" y="472" font-family="Monaco, Consolas, monospace" font-size="13">Access: 2026-07-03 18:04:35.478562139 +0000</text>
+<text x="20" y="490" font-family="Monaco, Consolas, monospace" font-size="13">Modify: 2026-07-03 18:04:35.476562139 +0000</text>
+<text x="20" y="508" font-family="Monaco, Consolas, monospace" font-size="13">Change: 2026-07-03 18:04:35.476562139 +0000</text>
+<text x="20" y="526" font-family="Monaco, Consolas, monospace" font-size="13"> Birth: 2026-07-03 18:04:35.476562139 +0000</text>
+<text x="20" y="544" font-family="Monaco, Consolas, monospace" font-size="13">Linux link test file</text>
+<text x="20" y="562" font-family="Monaco, Consolas, monospace" font-size="13">Linux link test file</text>
+<text x="20" y="580" font-family="Monaco, Consolas, monospace" font-size="13">Linux link test file</text>
+<text x="20" y="598" font-family="Monaco, Consolas, monospace" font-size="13">total 4</text>
+<text x="20" y="616" font-family="Monaco, Consolas, monospace" font-size="13">1310805 -rw-rw-rw- 1 codespace codespace 21 Jul  3 18:04 hardlink.txt</text>
+<text x="20" y="634" font-family="Monaco, Consolas, monospace" font-size="13">1310806 lrwxrwxrwx 1 codespace codespace 12 Jul  3 18:04 symlink.txt -&gt; original.txt</text>
+<text x="20" y="652" font-family="Monaco, Consolas, monospace" font-size="13">Linux link test file</text>
+<text x="20" y="670" font-family="Monaco, Consolas, monospace" font-size="13">cat: symlink.txt: No such file or directory</text>
+</svg>

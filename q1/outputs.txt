@@ -1,0 +1,13 @@
+codespace
+codespace pipx python oryx golang docker sdkman rvm php conda nvs nvm hugo ssh
+/bin/bash
+/workspaces/Github_repo_bits
+total 36
+ 4 -rw-rw-rw-  1 codespace root         18 Jul  3 17:47 README.md
+12 -rw-rw-rw-  1 codespace codespace 10604 Jul  3 18:04 generate_lab_artifacts.py
+ 4 drwxrwxrwx+ 2 codespace codespace  4096 Jul  3 17:48 q1
+ 4 drwxrwxrwx+ 3 codespace codespace  4096 Jul  3 17:51 q2
+ 4 drwxrwxrwx+ 2 codespace codespace  4096 Jul  3 17:56 q3
+ 4 drwxrwxrwx+ 2 codespace codespace  4096 Jul  3 17:59 q4
+ 4 drwxrwxrwx+ 2 codespace codespace  4096 Jul  3 17:48 q5
+Network: youtube.com reachable

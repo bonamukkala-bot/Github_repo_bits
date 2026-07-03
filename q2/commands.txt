@@ -1,0 +1,10 @@
+
+mkdir -p secure_workspace/{docs,src,logs}
+touch secure_workspace/docs/plan.txt secure_workspace/src/app.txt secure_workspace/logs/activity.log
+ls -ld secure_workspace secure_workspace/*
+chmod 750 secure_workspace
+chmod 750 secure_workspace/docs secure_workspace/src secure_workspace/logs
+chmod 640 secure_workspace/docs/plan.txt secure_workspace/src/app.txt secure_workspace/logs/activity.log
+ls -ld secure_workspace secure_workspace/*
+ls -l secure_workspace/*
+umask

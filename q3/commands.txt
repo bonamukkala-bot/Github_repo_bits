@@ -1,0 +1,14 @@
+
+rm -f original.txt hardlink.txt symlink.txt
+echo "Linux link test file" > original.txt
+ln original.txt hardlink.txt
+ln -s original.txt symlink.txt
+ls -li
+stat original.txt hardlink.txt symlink.txt
+cat original.txt
+cat hardlink.txt
+cat symlink.txt
+rm original.txt
+ls -li
+cat hardlink.txt
+cat symlink.txt

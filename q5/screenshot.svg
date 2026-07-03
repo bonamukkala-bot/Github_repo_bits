@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <text x="20" y="40" font-family="Arial" font-size="28" font-weight="bold" fill="#f8fafc">Question 5 - Storage Assessment</text>
+  <rect x="18" y="55" width="1364" height="820" rx="10" fill="#111827" stroke="#475569"/>
+  <text x="20" y="40" font-family="Monaco, Consolas, monospace" font-size="13">NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS</text>
+<text x="20" y="58" font-family="Monaco, Consolas, monospace" font-size="13">loop0     7:0    0 63.8M  1 loop </text>
+<text x="20" y="76" font-family="Monaco, Consolas, monospace" font-size="13">loop1     7:1    0 91.7M  1 loop </text>
+<text x="20" y="94" font-family="Monaco, Consolas, monospace" font-size="13">loop2     7:2    0 49.3M  1 loop </text>
+<text x="20" y="112" font-family="Monaco, Consolas, monospace" font-size="13">loop3     7:3    0  257G  0 loop </text>
+<text x="20" y="130" font-family="Monaco, Consolas, monospace" font-size="13">loop4     7:4    0   32G  0 loop /workspaces/.codespaces/.persistedshare</text>
+<text x="20" y="148" font-family="Monaco, Consolas, monospace" font-size="13">                                 /home/vscode/.minikube</text>
+<text x="20" y="166" font-family="Monaco, Consolas, monospace" font-size="13">                                 /var/lib/docker</text>
+<text x="20" y="184" font-family="Monaco, Consolas, monospace" font-size="13">                                 /etc/hosts</text>
+<text x="20" y="202" font-family="Monaco, Consolas, monospace" font-size="13">                                 /etc/hostname</text>
+<text x="20" y="220" font-family="Monaco, Consolas, monospace" font-size="13">                                 /etc/resolv.conf</text>
+<text x="20" y="238" font-family="Monaco, Consolas, monospace" font-size="13">                                 /workspaces</text>
+<text x="20" y="256" font-family="Monaco, Consolas, monospace" font-size="13">loop5     7:5    0  500M  0 loop </text>
+<text x="20" y="274" font-family="Monaco, Consolas, monospace" font-size="13">sda       8:0    0   30G  0 disk </text>
+<text x="20" y="292" font-family="Monaco, Consolas, monospace" font-size="13">├─sda1    8:1    0 29.9G  0 part /workspaces/.codespaces/shared</text>
+<text x="20" y="310" font-family="Monaco, Consolas, monospace" font-size="13">│                                /.codespaces/bin</text>
+<text x="20" y="328" font-family="Monaco, Consolas, monospace" font-size="13">│                                /vscode</text>
+<text x="20" y="346" font-family="Monaco, Consolas, monospace" font-size="13">│                                /usr/sbin/docker-init</text>
+<text x="20" y="364" font-family="Monaco, Consolas, monospace" font-size="13">├─sda14   8:14   0    4M  0 part </text>
+<text x="20" y="382" font-family="Monaco, Consolas, monospace" font-size="13">└─sda15   8:15   0  106M  0 part </text>
+<text x="20" y="400" font-family="Monaco, Consolas, monospace" font-size="13">sdb       8:16   0   45G  0 disk </text>
+<text x="20" y="418" font-family="Monaco, Consolas, monospace" font-size="13">└─sdb1    8:17   0   45G  0 part /tmp</text>
+<text x="20" y="436" font-family="Monaco, Consolas, monospace" font-size="13">sdc       8:32   0  512G  0 disk </text>
+<text x="20" y="454" font-family="Monaco, Consolas, monospace" font-size="13">└─sdc1    8:33   0  512G  0 part </text>
+<text x="20" y="472" font-family="Monaco, Consolas, monospace" font-size="13">sr0      11:0    1  628K  0 rom  </text>
+<text x="20" y="490" font-family="Monaco, Consolas, monospace" font-size="13">overlay on / type overlay (rw,relatime,lowerdir=/var/lib/docker/overlay2/l/NN3WL3KIDVDQPNZIJXUCSDW24M:/var/lib/docker/overlay2/l/TFH542TSJWODOBMDVGAHUWBJI7:/var/lib/docker/overlay2/l/XVFC5Z3LVCCQFSSI67FCZ3HIPG:/var/lib/docker/overlay2/l/5BKZJN3UJVEODOOBVBLTJ3MS6N:/var/lib/docker/overlay2/l/BJAGCNJAXJI3GQOYNMSDXVYTVP:/var/lib/docker/overlay2/l/IRKK67F444YAWGWGVTHOB2FFXV:/var/lib/docker/overlay2/l/VO6DJXUGTPPBBNQ7T2JLRVQAH6:/var/lib/docker/overlay2/l/7EIXDNIN3IEOFI6YN2H6PEN6VU:/var/lib/docker/overlay2/l/B6L4AKMOB5QYQ4XFGDLQ64QXEG:/var/lib/docker/overlay2/l/HSL5CFUQ5UND4DCXVRIDVG5PYR:/var/lib/docker/overlay2/l/OTCVRZKTDTG7N7NLRTW5YGMAU2:/var/lib/docker/overlay2/l/G2RM6EXV6DT6I4VEHZDDQURDHH:/var/lib/docker/overlay2/l/UXCMEEXTPONRMVTI6WR7UFISEE:/var/lib/docker/overlay2/l/D5KZZDPZ5PVN4KGXNGWESEMNKD:/var/lib/docker/overlay2/l/IP4FXG3UU5V6CFGRS4ZHRYSRJC:/var/lib/docker/overlay2/l/SRDFTZF2UDA5OFJXKZHTKZJNXG:/var/lib/docker/overlay2/l/E6AC6U5MYHGQZI7XLFVMOK6SYP:/var/lib/docker/overlay2/l/KFPZ46SEJDRLFDBI5N5VDPVXXI:/var/lib/docker/overlay2/l/3WHYMHVUNNK32DS6WSK3Y2C3NM:/var/lib/docker/overlay2/l/RAOTUFYH7WQVQW6MIMF4CZQZXF:/var/lib/docker/overlay2/l/7KTIRH6MNODCRDEJMTD6DCK7AF:/var/lib/docker/overlay2/l/6MIQKY4LHMLU2OBVE4QWOWBGOG:/var/lib/docker/overlay2/l/KLISC5YUOZEE6BEPAINOXO7BQ3:/var/lib/docker/overlay2/l/RPWUXYRI2R3BTJPBMITQLDQU6V:/var/lib/docker/overlay2/l/ZLXAE6VBZURHBVLYVG6SCW7BDK:/var/lib/docker/overlay2/l/LNOXFRL72JV7KKOP7I5EPM3P34:/var/lib/docker/overlay2/l/MBISG4RYLTZLEJIO5ZYNIM3DCS:/var/lib/docker/overlay2/l/6B4APAATKJQ4ES3NFZ7RQHKQQ5:/var/lib/docker/overlay2/l/BGWWSNP6ORD4O5O5X4IGSRFFVF:/var/lib/docker/overlay2/l/APIPPXFFUUCXLNAEFGC4GJOWDZ:/var/lib/docker/overlay2/l/ZBDOJ3F3NZ2LEYVRAJOUJ3Z6RS:/var/lib/docker/overlay2/l/424JWNSD447XEXLOMW2PUU5NYI:/var/lib/docker/overlay2/l/KL3C2OZXXJJYQUODLUA3CUMI2V:/var/lib/docker/overlay2/l/UM6HR3DAGTMDCFJ2S5DC5SUEOU,upperdir=/var/lib/docker/overlay2/9422ce13d0d3a3de563a883bb5299068fdccc144ea61ebea35f70a5a1a48402c/diff,workdir=/var/lib/docker/overlay2/9422ce13d0d3a3de563a883bb5299068fdccc144ea61ebea35f70a5a1a48402c/work,nouserxattr)</text>
+<text x="20" y="508" font-family="Monaco, Consolas, monospace" font-size="13">proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)</text>
+<text x="20" y="526" font-family="Monaco, Consolas, monospace" font-size="13">tmpfs on /dev type tmpfs (rw,nosuid,size=65536k,mode=755,inode64)</text>
+<text x="20" y="544" font-family="Monaco, Consolas, monospace" font-size="13">devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=666)</text>
+<text x="20" y="562" font-family="Monaco, Consolas, monospace" font-size="13">sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)</text>
+<text x="20" y="580" font-family="Monaco, Consolas, monospace" font-size="13">Filesystem      Size  Used Avail Use% Mounted on</text>
+<text x="20" y="598" font-family="Monaco, Consolas, monospace" font-size="13">overlay          32G  9.6G   21G  33% /</text>
+<text x="20" y="616" font-family="Monaco, Consolas, monospace" font-size="13">tmpfs            64M     0   64M   0% /dev</text>
+<text x="20" y="634" font-family="Monaco, Consolas, monospace" font-size="13">shm              64M     0   64M   0% /dev/shm</text>
+<text x="20" y="652" font-family="Monaco, Consolas, monospace" font-size="13">/dev/root        29G   24G  5.7G  81% /vscode</text>
+<text x="20" y="670" font-family="Monaco, Consolas, monospace" font-size="13">/dev/sdb1        44G  2.6G   40G   7% /tmp</text>
+<text x="20" y="688" font-family="Monaco, Consolas, monospace" font-size="13">/dev/loop4       32G  9.6G   21G  33% /workspaces</text>
+<text x="20" y="706" font-family="Monaco, Consolas, monospace" font-size="13">Filesystem      Inodes  IUsed   IFree IUse% Mounted on</text>
+<text x="20" y="724" font-family="Monaco, Consolas, monospace" font-size="13">overlay        2097152 203096 1894056   10% /</text>
+<text x="20" y="742" font-family="Monaco, Consolas, monospace" font-size="13">tmpfs          1016900    213 1016687    1% /dev</text>
+<text x="20" y="760" font-family="Monaco, Consolas, monospace" font-size="13">shm            1016900      1 1016899    1% /dev/shm</text>
+<text x="20" y="778" font-family="Monaco, Consolas, monospace" font-size="13">/dev/root      3870720 243380 3627340    7% /vscode</text>
+<text x="20" y="796" font-family="Monaco, Consolas, monospace" font-size="13">/dev/sdb1      2949120     37 2949083    1% /tmp</text>
+<text x="20" y="814" font-family="Monaco, Consolas, monospace" font-size="13">/dev/loop4     2097152 203096 1894056   10% /workspaces</text>
+</svg>

@@ -1,0 +1,7 @@
+
+whoami
+groups
+echo "$SHELL"
+pwd
+ls -ls
+curl -s --max-time 10 https://youtube.com > /dev/null && echo "Network: youtube.com reachable"

@@ -1,0 +1,64 @@
+Link Analysis Report
+====================
+The link experiment was run in /workspaces/Github_repo_bits/q3.
+
+Commands executed:
+
+rm -f original.txt hardlink.txt symlink.txt
+echo "Linux link test file" > original.txt
+ln original.txt hardlink.txt
+ln -s original.txt symlink.txt
+ls -li
+stat original.txt hardlink.txt symlink.txt
+cat original.txt
+cat hardlink.txt
+cat symlink.txt
+rm original.txt
+ls -li
+cat hardlink.txt
+cat symlink.txt
+
+
+Observed output:
+total 8
+1310805 -rw-rw-rw- 2 codespace codespace 21 Jul  3 18:04 hardlink.txt
+1310805 -rw-rw-rw- 2 codespace codespace 21 Jul  3 18:04 original.txt
+1310806 lrwxrwxrwx 1 codespace codespace 12 Jul  3 18:04 symlink.txt -> original.txt
+  File: original.txt
+  Size: 21        	Blocks: 8          IO Block: 4096   regular file
+Device: 7,4	Inode: 1310805     Links: 2
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)
+Access: 2026-07-03 18:04:35.471562139 +0000
+Modify: 2026-07-03 18:04:35.471562139 +0000
+Change: 2026-07-03 18:04:35.474562139 +0000
+ Birth: 2026-07-03 18:04:35.471562139 +0000
+  File: hardlink.txt
+  Size: 21        	Blocks: 8          IO Block: 4096   regular file
+Device: 7,4	Inode: 1310805     Links: 2
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)
+Access: 2026-07-03 18:04:35.471562139 +0000
+Modify: 2026-07-03 18:04:35.471562139 +0000
+Change: 2026-07-03 18:04:35.474562139 +0000
+ Birth: 2026-07-03 18:04:35.471562139 +0000
+  File: symlink.txt -> original.txt
+  Size: 12        	Blocks: 0          IO Block: 4096   symbolic link
+Device: 7,4	Inode: 1310806     Links: 1
+Access: (0777/lrwxrwxrwx)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)
+Access: 2026-07-03 18:04:35.478562139 +0000
+Modify: 2026-07-03 18:04:35.476562139 +0000
+Change: 2026-07-03 18:04:35.476562139 +0000
+ Birth: 2026-07-03 18:04:35.476562139 +0000
+Linux link test file
+Linux link test file
+Linux link test file
+total 4
+1310805 -rw-rw-rw- 1 codespace codespace 21 Jul  3 18:04 hardlink.txt
+1310806 lrwxrwxrwx 1 codespace codespace 12 Jul  3 18:04 symlink.txt -> original.txt
+Linux link test file
+cat: symlink.txt: No such file or directory
+
+Brief observations:
+- The hard link shared the same inode as the original file.
+- The symbolic link had a different inode and pointed to the original filename.
+- Deleting the original file removed the target for the symlink but left the hard link intact.
+- This demonstrates the difference between hard links and symbolic links in Linux.
